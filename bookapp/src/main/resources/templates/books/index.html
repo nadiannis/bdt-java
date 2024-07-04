@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org" lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>All Books | Bookapp</title>
+    <link rel="preconnect" href="https://fonts.bunny.net">
+    <link href="https://fonts.bunny.net/css?family=poppins:400,600,800" rel="stylesheet" />
+    <link rel="stylesheet" th:href="@{/styles/main.css}">
+</head>
+<body>
+<header>
+    <div class="container">
+        <a href="/" class="logo"><h1>Bookapp</h1></a>
+    </div>
+</header>
+<main>
+    <section class="book-list-section">
+        <div class="container">
+            <div class="book-list-top">
+                <h2>All Books</h2>
+                <a href="/books/add" class="btn btn-solid-primary">Add a book</a>
+            </div>
+            <div th:if="${#lists.isEmpty(books)}" style="text-align: center; padding: 3rem;">
+                <p>There are no books available.</p>
+            </div>
+            <div th:if="${not #lists.isEmpty(books)}" th:each="book : ${books}" class="book-list">
+                <a th:href="@{/books/{id}(id=${book.id})}" class="book">
+                    <h3 class="book-title" th:text="${book.title}"></h3>
+                    <div class="book-info">
+                        <span class="book-id" th:text="${book.id}"></span>
+                        <span class="book-author" th:text="${book.author}"></span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+</main>
+</body>
+</html>

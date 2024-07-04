@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org" lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Add a Book | Bookapp</title>
+    <link rel="preconnect" href="https://fonts.bunny.net">
+    <link href="https://fonts.bunny.net/css?family=poppins:400,600,800" rel="stylesheet" />
+    <link rel="stylesheet" th:href="@{/styles/main.css}">
+</head>
+<body>
+<header>
+    <div class="container">
+        <a href="/" class="logo"><h1>Bookapp</h1></a>
+    </div>
+</header>
+<main>
+    <section class="book-add-section">
+        <div class="container">
+            <div class="main-section-nav">
+                <a href="/books">&lt; View all books</a>
+            </div>
+            <h2>Add a Book</h2>
+            <form class="book-form" method="POST" th:action="@{/books/add}" th:object="${book}">
+                <div class="form-field">
+                    <label for="title">Title</label>
+                    <input type="text" id="title" th:field="*{title}" required>
+                </div>
+                <div class="form-field">
+                    <label for="author">Author</label>
+                    <input type="text" id="author" th:field="*{author}" required>
+                </div>
+                <button type="submit" class="btn btn-solid-primary">Add</button>
+            </form>
+        </div>
+    </section>
+</main>
+</body>
+</html>

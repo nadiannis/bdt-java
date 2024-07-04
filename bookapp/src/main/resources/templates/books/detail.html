@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org" lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Book Detail | Bookapp</title>
+    <link rel="preconnect" href="https://fonts.bunny.net">
+    <link href="https://fonts.bunny.net/css?family=poppins:400,600,800" rel="stylesheet" />
+    <link rel="stylesheet" th:href="@{/styles/main.css}">
+</head>
+<body>
+<header>
+    <div class="container">
+        <a href="/" class="logo"><h1>Bookapp</h1></a>
+    </div>
+</header>
+<main>
+    <section class="book-detail-section">
+        <div class="container">
+            <div class="main-section-nav">
+                <a href="/books">&lt; View all books</a>
+            </div>
+            <div th:if="${book == null}" style="text-align: center; padding: 3rem 0;">
+                <p>Book not found.</p>
+            </div>
+            <div th:if="${book != null}" class="container">
+                <div class="book-detail">
+                    <span class="id">ID: <span th:text="${book.id}"></span></span>
+                    <h2 class="title" th:text="${book.title}"></h2>
+                    <p class="author">This book is written by <span th:text="${book.author}"></span>.</p>
+                </div>
+                <div class="book-action">
+                    <a class="btn btn-solid-primary" th:href="@{/books/{id}/edit(id=${book.id})}">Edit</a>
+                    <form method="POST" th:action="@{/books/{id}(id=${book.id})}">
+                        <input type="hidden" name="_method" value="delete">
+                        <button class="btn btn-solid-secondary" type="Submit">Delete</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+</body>
+</html>
