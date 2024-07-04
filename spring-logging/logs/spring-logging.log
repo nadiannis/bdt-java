@@ -1,0 +1,46 @@
+11:34:06.301 [main] INFO  c.n.s.SpringLoggingApplication - Starting SpringLoggingApplication using Java 17.0.11 with PID 18572 (C:\Users\ASUS\IdeaProjects\phincon-training\spring-logging\target\classes started by ASUS in C:\Users\ASUS\IdeaProjects\phincon-training\spring-logging)
+11:34:06.303 [main] DEBUG c.n.s.SpringLoggingApplication - Running with Spring Boot v3.3.1, Spring v6.1.10
+11:34:06.304 [main] INFO  c.n.s.SpringLoggingApplication - No active profile set, falling back to 1 default profile: "default"
+11:34:07.647 [main] INFO  c.n.s.SpringLoggingApplication - Started SpringLoggingApplication in 1.953 seconds (process running for 2.278)
+11:34:57.500 [main] INFO  c.n.s.SpringLoggingApplication - Starting SpringLoggingApplication using Java 17.0.11 with PID 19212 (C:\Users\ASUS\IdeaProjects\phincon-training\spring-logging\target\classes started by ASUS in C:\Users\ASUS\IdeaProjects\phincon-training\spring-logging)
+11:34:57.503 [main] DEBUG c.n.s.SpringLoggingApplication - Running with Spring Boot v3.3.1, Spring v6.1.10
+11:34:57.504 [main] INFO  c.n.s.SpringLoggingApplication - No active profile set, falling back to 1 default profile: "default"
+11:34:58.873 [main] INFO  c.n.s.SpringLoggingApplication - Started SpringLoggingApplication in 1.975 seconds (process running for 2.324)
+11:38:09.550 [http-nio-8080-exec-1] DEBUG c.n.spring_logging.LoggingController - A DEBUG Message
+11:38:09.550 [http-nio-8080-exec-1] INFO  c.n.spring_logging.LoggingController - An INFO Message
+11:38:09.550 [http-nio-8080-exec-1] WARN  c.n.spring_logging.LoggingController - A WARN Message
+11:38:09.551 [http-nio-8080-exec-1] ERROR c.n.spring_logging.LoggingController - An ERROR Message
+11:38:34.274 [main] INFO  c.n.s.SpringLoggingApplication - Starting SpringLoggingApplication using Java 17.0.11 with PID 14712 (C:\Users\ASUS\IdeaProjects\phincon-training\spring-logging\target\classes started by ASUS in C:\Users\ASUS\IdeaProjects\phincon-training\spring-logging)
+11:38:34.276 [main] DEBUG c.n.s.SpringLoggingApplication - Running with Spring Boot v3.3.1, Spring v6.1.10
+11:38:34.277 [main] INFO  c.n.s.SpringLoggingApplication - No active profile set, falling back to 1 default profile: "default"
+11:38:35.590 [main] INFO  c.n.s.SpringLoggingApplication - Started SpringLoggingApplication in 1.916 seconds (process running for 2.253)
+11:39:17.401 [http-nio-8080-exec-1] DEBUG c.n.spring_logging.LoggingController - A DEBUG Message
+11:39:17.401 [http-nio-8080-exec-1] INFO  c.n.spring_logging.LoggingController - An INFO Message
+11:39:17.401 [http-nio-8080-exec-1] WARN  c.n.spring_logging.LoggingController - A WARN Message
+11:39:17.402 [http-nio-8080-exec-1] ERROR c.n.spring_logging.LoggingController - An ERROR Message
+11:39:59.250 [main] INFO  c.n.s.SpringLoggingApplication - Starting SpringLoggingApplication using Java 17.0.11 with PID 13608 (C:\Users\ASUS\IdeaProjects\phincon-training\spring-logging\target\classes started by ASUS in C:\Users\ASUS\IdeaProjects\phincon-training\spring-logging)
+11:39:59.251 [main] DEBUG c.n.s.SpringLoggingApplication - Running with Spring Boot v3.3.1, Spring v6.1.10
+11:39:59.253 [main] INFO  c.n.s.SpringLoggingApplication - No active profile set, falling back to 1 default profile: "default"
+11:40:00.626 [main] INFO  c.n.s.SpringLoggingApplication - Started SpringLoggingApplication in 1.959 seconds (process running for 2.35)
+11:40:05.617 [http-nio-8080-exec-1] DEBUG c.n.spring_logging.LoggingController - A DEBUG Message
+11:40:05.617 [http-nio-8080-exec-1] INFO  c.n.spring_logging.LoggingController - An INFO Message
+11:40:05.618 [http-nio-8080-exec-1] WARN  c.n.spring_logging.LoggingController - A WARN Message
+11:40:05.618 [http-nio-8080-exec-1] ERROR c.n.spring_logging.LoggingController - An ERROR Message
+11:41:18.150 [main] INFO  c.n.s.SpringLoggingApplication - Starting SpringLoggingApplication using Java 17.0.11 with PID 6792 (C:\Users\ASUS\IdeaProjects\phincon-training\spring-logging\target\classes started by ASUS in C:\Users\ASUS\IdeaProjects\phincon-training\spring-logging)
+11:41:18.152 [main] DEBUG c.n.s.SpringLoggingApplication - Running with Spring Boot v3.3.1, Spring v6.1.10
+11:41:18.153 [main] INFO  c.n.s.SpringLoggingApplication - No active profile set, falling back to 1 default profile: "default"
+11:41:19.483 [main] INFO  c.n.s.SpringLoggingApplication - Started SpringLoggingApplication in 1.939 seconds (process running for 2.286)
+11:41:27.748 [http-nio-8080-exec-1] TRACE c.n.spring_logging.LoggingController - A TRACE Message
+11:41:27.748 [http-nio-8080-exec-1] DEBUG c.n.spring_logging.LoggingController - A DEBUG Message
+11:41:27.748 [http-nio-8080-exec-1] INFO  c.n.spring_logging.LoggingController - An INFO Message
+11:41:27.749 [http-nio-8080-exec-1] WARN  c.n.spring_logging.LoggingController - A WARN Message
+11:41:27.749 [http-nio-8080-exec-1] ERROR c.n.spring_logging.LoggingController - An ERROR Message
+11:42:15.820 [main] INFO  c.n.s.SpringLoggingApplication - Starting SpringLoggingApplication using Java 17.0.11 with PID 12600 (C:\Users\ASUS\IdeaProjects\phincon-training\spring-logging\target\classes started by ASUS in C:\Users\ASUS\IdeaProjects\phincon-training\spring-logging)
+11:42:15.822 [main] DEBUG c.n.s.SpringLoggingApplication - Running with Spring Boot v3.3.1, Spring v6.1.10
+11:42:15.823 [main] INFO  c.n.s.SpringLoggingApplication - No active profile set, falling back to 1 default profile: "default"
+11:42:17.160 [main] INFO  c.n.s.SpringLoggingApplication - Started SpringLoggingApplication in 1.929 seconds (process running for 2.254)
+11:42:25.800 [http-nio-8080-exec-1] TRACE c.n.spring_logging.LoggingController - A TRACE Message
+11:42:25.801 [http-nio-8080-exec-1] DEBUG c.n.spring_logging.LoggingController - A DEBUG Message
+11:42:25.801 [http-nio-8080-exec-1] INFO  c.n.spring_logging.LoggingController - An INFO Message
+11:42:25.801 [http-nio-8080-exec-1] WARN  c.n.spring_logging.LoggingController - A WARN Message
+11:42:25.802 [http-nio-8080-exec-1] ERROR c.n.spring_logging.LoggingController - An ERROR Message
