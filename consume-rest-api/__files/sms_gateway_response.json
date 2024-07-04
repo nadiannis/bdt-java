@@ -1,0 +1,10 @@
+{
+  "response_code": "00000",
+  "response_message": "Send SMS Completed",
+  "sms_information": [
+    {
+      "sequence_number": 1575,
+      "message_id": "2FD40100"
+    }
+  ]
+}
