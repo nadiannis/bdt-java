@@ -3,4 +3,4 @@
 A collection of code created during the Java phase of Backend Development Training.
 
 - **Midterm project**: [Phinroll](./phinroll)
-- **Final project**: COMING SOON
+- **Final project**: [Phincommerce](https://github.com/nadiannis/phincommerce)
